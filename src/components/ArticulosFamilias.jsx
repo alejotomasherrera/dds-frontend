@@ -21,7 +21,7 @@ function ArticulosFamilias() {
       <table className="table table-bordered table-striped">
         <thead>
           <tr>
-          <th style={{ width: "40%" }}>IdArticuloFamilia</th>
+            <th style={{ width: "40%" }}>IdArticuloFamilia</th>
             <th style={{ width: "60%" }}>Nombre</th>
           </tr>
         </thead>

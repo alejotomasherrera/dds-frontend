@@ -7,7 +7,7 @@ function Menu() {
       <a className="navbar-brand">
         <i className="fa fa-industry"></i>
         &nbsp;<i>Pymes</i>
-        </a>
+      </a>
       <button
         className="navbar-toggler"
         type="button"
@@ -29,6 +29,11 @@ function Menu() {
           <li className="nav-item">
             <NavLink className="nav-link" to="/articulosfamilias">
               Articulos Familias
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/articulos">
+              Articulos
             </NavLink>
           </li>
         </ul>
