@@ -164,7 +164,7 @@ export default function ArticulosRegistro({
                   (errors?.IdArticuloFamilia ? "is-invalid" : "")
                 }
               >
-                <option value="" key={1}></option>
+                <option value="" key={1}>Seleccione familia de producto</option>
                 {ArticulosFamilias?.map((x) => (
                   <option value={x.IdArticuloFamilia} key={x.IdArticuloFamilia}>
                     {x.Nombre}
